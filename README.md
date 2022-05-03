@@ -12,7 +12,7 @@ $ pip install -r requirements.txt
 ## How to run Library Management System
 
 ```
-$ python app_main.py --books Test1 Test2 Test3        ?develop
+$ python app_main.py --books Test1 Test2 Test3
 
     =====LIBRARY MENU=====
     1. Show all available books
