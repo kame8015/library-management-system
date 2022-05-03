@@ -1,5 +1,5 @@
 {
-  "python.pythonPath": "python",
+  "python.pythonPath": "${workspaceFolfer}/bin/python",
   "python.linting.enabled": true,
   "python.linting.pylintEnabled": false,
   "python.linting.flake8Enabled": true,
@@ -10,6 +10,14 @@
   ],
   "python.linting.lintOnSave": true,
   "python.formatting.provider": "black",
+  "python.testing.pytestArgs": [
+    "tests"
+  ],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true,
   "editor.formatOnSave": true,
-  "editor.formatOnPaste": false
+  "editor.formatOnPaste": false,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  }
 }
